@@ -9,7 +9,6 @@ public class MemberBean implements Serializable {
 	private String password;
 	private String msg;
 
-	//sample
 	// 引数無しのデフォルトコンストラクタ
 	public MemberBean() {
 
