@@ -43,7 +43,6 @@ public class LoginServlet extends HttpServlet {
 				member = new MemberBean();
 				member.setMsg("IDまたはパスワードが違います");
 				member.setId(id);
-				//member.setPassword(password);
 			}
 
 			request.setAttribute("member", member);
